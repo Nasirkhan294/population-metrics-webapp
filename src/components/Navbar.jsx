@@ -1,10 +1,22 @@
 import { useLocation, useNavigate } from 'react-router-dom';
+import { BiLeftArrowAlt } from 'react-icons/bi';
 
 const Navbar = () => {
-  const location = useLocation();
+  const locate = useLocation();
   const navigate = useNavigate();
   return (
-    <div>Navbar</div>
+    <nav>
+      <ul>
+        <li>
+          {locate.pathname === '/' ? (
+            ''
+          ) : (
+            <BiLeftArrowAlt onClick={() => navigate('/')} />
+          )}
+        </li>
+        <li>{locate.pathname === '/' ? 'Item Info' : 'Item Details'}</li>
+      </ul>
+    </nav>
   );
 };
 
