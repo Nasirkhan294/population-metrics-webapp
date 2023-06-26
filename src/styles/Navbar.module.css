@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cb4276;
+  padding: 1rem;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+  padding: 0.5rem 3rem;
+}
+
+.navList li {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.arrow {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background-color: #fff;
+  color: #cb4276;
+  cursor: pointer;
+}
+
+.microphone,
+.setting {
+  margin-right: 1rem;
+}
+
+.microphone:hover,
+.setting:hover {
+	color: #cac9c9;
+	cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 40vh;
+	background-color: #FA72A4;
+}
+
+input {
+	padding: 1rem;
+	width: 30%;
+	margin-bottom: 1rem;
+	border: none;
+	outline: none;
+	border-radius: 1rem;
+	font-size: 1rem;
+	text-transform: capitalize;
+}
