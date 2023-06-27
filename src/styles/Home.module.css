@@ -1,18 +1,20 @@
 .banner {
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	height: 40vh;
-	background-color: #FA72A4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40vh;
+  background-image: url(../assets/c-pop1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-input {
-	padding: 1rem;
-	width: 30%;
-	margin-bottom: 1rem;
-	border: none;
-	outline: none;
-	border-radius: 1rem;
-	font-size: 1rem;
-	text-transform: capitalize;
+.input {
+  padding: 0.5rem 1rem;
+  width: 70%;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  text-transform: capitalize;
 }
