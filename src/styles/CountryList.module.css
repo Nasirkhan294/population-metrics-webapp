@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.countryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 10rem;
+  padding: 1rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.thumbnail {
+  border-radius: 0.2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0.2rem 0;
+}
+
+.arrow {
+  border: 2px solid #000;
+  border-radius: 50%;
+  font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.arrow:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
