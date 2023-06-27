@@ -1,0 +1,42 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  max-height: 50vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cb4276;
+  color: #000;
+  width: 100%;
+  padding: 1rem;
+}
+
+.header span {
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fc5192;
+  color: #fff;
+}
+
+.info p {
+  color: #000;
+}
+
+.info:nth-child(even) {
+  background-color: #cb4276;
+}
