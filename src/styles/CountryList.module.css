@@ -16,11 +16,12 @@
   padding: 1rem 0;
   position: relative;
   text-align: center;
-  background-color: #FC5192;
+  background-color: #fc5192;
 }
 
-.countryContainer:nth-child(4n+2), .countryContainer:nth-child(4n+3) {
-    background-color: #cb4276;
+.countryContainer:nth-child(4n + 2),
+.countryContainer:nth-child(4n + 3) {
+  background-color: #cb4276;
 }
 
 .thumbnailContainer {
@@ -60,7 +61,7 @@ p {
 
 .arrow:hover {
   background-color: #fff;
-  color: #FC5192;
+  color: #fc5192;
   cursor: pointer;
 }
 
@@ -70,7 +71,7 @@ p {
   align-items: flex-end;
   height: 40vh;
   background-image: url(../assets/c-pop1.jpg);
-  background-position: center;
+  background-position: bottom center;
   background-size: cover;
 }
 
@@ -84,4 +85,31 @@ p {
   font-size: 0.8rem;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .input {
+    width: 30%;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .countryContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }

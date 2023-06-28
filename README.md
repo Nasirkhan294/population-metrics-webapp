@@ -112,7 +112,7 @@ npx eslint "**/*.{js,jsx}
 
 - To Run Test files 
 ```
-npx jest
+npm test
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

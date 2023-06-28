@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: #cb4276;
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 .navList {
@@ -31,11 +31,21 @@
 }
 
 .setting {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .microphone:hover,
 .setting:hover {
   color: #cac9c9;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .setting {
+    margin-left: 1rem;
+  }
 }

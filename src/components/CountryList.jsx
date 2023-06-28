@@ -11,7 +11,9 @@ const CountryList = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getCountries());
+    if (countries.length === 0) {
+      dispatch(getCountries());
+    }
   }, []);
 
   if (isLoading) {

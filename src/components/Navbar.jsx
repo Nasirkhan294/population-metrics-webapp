@@ -16,7 +16,7 @@ const Navbar = () => {
             <BiLeftArrowAlt className={styles.arrow} onClick={() => navigate('/')} />
           )}
         </li>
-        <li>{locate.pathname === '/' ? 'Global Data' : 'Country Details'}</li>
+        <li>{locate.pathname === '/' ? 'Global Population' : 'Country Details'}</li>
         <li>
           <FaMicrophone className={styles.microphone} />
           <FaRegSun className={styles.setting} />
