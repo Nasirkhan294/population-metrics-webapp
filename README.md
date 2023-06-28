@@ -31,7 +31,7 @@
 
 # 📖 Population Metrics Web App <a name="about-project"></a>
 
-**Population Metrics Web App:** This GitHub repository serves as a comprehensive data fetching solution for Metrics webapp using the external API.
+**Population Metrics Web App:** Population Metrics WebApp is a repository that houses a web application designed to fetch and display population data from an external API. This interactive web application provides users with an intuitive interface to explore population statistics for different countries. It features a comprehensive details page for each country, offering in-depth information and insights about their population metrics. With its user-friendly design and reliable data source, the Population Metrics WebApp serves as a valuable tool for studying and analyzing global population trends
 
 Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
@@ -57,7 +57,7 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Project Demo] -->
+- [Live Project Demo](https://population-metrics-app.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
