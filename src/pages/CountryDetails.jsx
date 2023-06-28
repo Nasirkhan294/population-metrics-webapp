@@ -45,6 +45,14 @@ const CountryDetails = () => {
           <p>Calling Codes:</p>
           {country.callingCodes}
         </li>
+        <li className={styles.info}>
+          <p>Area:</p>
+          {country.area}
+        </li>
+        <li className={styles.info}>
+          <p>Alpha3Code:</p>
+          {country.alpha3Code}
+        </li>
       </div>
     </>
   );
