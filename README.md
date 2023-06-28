@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>Welcome to Metrics Web App 😃</b></h1>
+  <h1><b>Welcome to Population Metrics Web App 😃</b></h1>
 </div>
 
 
@@ -29,9 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Metrics Web App <a name="about-project"></a>
+# 📖 Population Metrics Web App <a name="about-project"></a>
 
-**Metrics Web App:** This GitHub repository serves as a comprehensive data fetching solution for Metrics webapp using the external API.
+**Population Metrics Web App:** This GitHub repository serves as a comprehensive data fetching solution for Metrics webapp using the external API.
 
 Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
