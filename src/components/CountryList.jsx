@@ -14,7 +14,7 @@ const CountryList = () => {
     if (countries.length === 0) {
       dispatch(getCountries());
     }
-  }, []);
+  }, [countries.length, dispatch]);
 
   if (isLoading) {
     return <p>Loading ...</p>;
