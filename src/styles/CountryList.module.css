@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.countryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 10rem;
+  padding: 1rem 0;
+  position: relative;
+  text-align: center;
+  background-color: #fc5192;
+}
+
+.countryContainer:nth-child(4n + 2),
+.countryContainer:nth-child(4n + 3) {
+  background-color: #cb4276;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.thumbnail {
+  border-radius: 0.2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.details {
+  color: #222;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0.2rem 0;
+}
+
+.arrow {
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.arrow:hover {
+  background-color: #fff;
+  color: #fc5192;
+  cursor: pointer;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40vh;
+  background-image: url(../assets/c-pop1.jpg);
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.input {
+  padding: 0.6rem 1rem;
+  width: 70%;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    height: 50vh;
+  }
+
+  .input {
+    width: 30%;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .countryContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

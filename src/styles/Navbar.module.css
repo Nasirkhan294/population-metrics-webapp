@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cb4276;
+  padding: 1rem 0.5rem;
+}
+
+.navList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+
+.navList li {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.arrow {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background-color: #fff;
+  color: #cb4276;
+  cursor: pointer;
+}
+
+.setting {
+  margin-left: 0.5rem;
+}
+
+.microphone:hover,
+.setting:hover {
+  color: #cac9c9;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .setting {
+    margin-left: 1rem;
+  }
+}
