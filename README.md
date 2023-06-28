@@ -58,6 +58,7 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Project Demo](https://population-metrics-app.netlify.app/)
+- [Project Presentation](https://www.loom.com/share/85a23132a75740a0afc1f65ca56eae14?sid=e4ebd65a-3278-43ee-a416-4cbaa97221e2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
